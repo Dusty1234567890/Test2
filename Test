@@ -1,0 +1,137 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("GASTER HUB")
+
+local KillingCheats = PhantomForcesWindow:NewSection("plushies")
+
+KillingCheats:CreateButton("Limbo plushie", function()
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local workspace = game:GetService("Workspace")
+
+local map = replicatedStorage:FindFirstChild("RepressedMemoriesMap")
+if map then
+    map.Parent = workspace
+    print("RepressedMemoriesMap moved to Workspace")
+   else
+ print("RepressedMemoriesMap not found in ReplicatedStorage")
+end
+wait(0.5)
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(18472.6094, 3063.44214, -402.015442, -0.835954249, 0, -0.548799276, 0, 1.00000012, 0, 0.548799336, 0, -0.83595413)
+        root.CFrame = desiredCFrame
+    end
+end
+wait(2)
+fireclickdetector(workspace.RepressedMemories._ugcQuestObjectBobPlushie.ClickDetector)
+wait(1.5)
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(-786.292175, 324.447693, 1.09266138, -0.563353956, -1.5265778e-08, -0.826215684, -8.89806895e-09, 1, -1.24096129e-08, 0.826215684, 3.60719482e-10, -0.563353956)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+KillingCheats:CreateButton("Elude plushie", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(-52.8588524, 1.19999933, -37.3839836, -0.999801993, -1.05696429e-07, -0.0199000984, -1.05679547e-07, 1, -1.89986538e-09, 0.0199000984, 2.03544209e-10, -0.999801993)
+        root.CFrame = desiredCFrame
+    end
+end
+wait(2)
+fireclickdetector(workspace._ugcQuestObjectEludeHat.ClickDetector)
+end)
+
+KillingCheats:CreateButton("Null zone plushie", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(5260.01758, -141.203705, 863.330688, -0.923977673, 9.12476672e-09, -0.382446438, 4.22164632e-08, 1, -7.81346046e-08, 0.382446438, -8.83401654e-08, -0.923977673)
+        root.CFrame = desiredCFrame
+    end
+end
+wait(2)
+fireclickdetector(workspace._ugcQuestObjectBobPlushie.ClickDetector)
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Portal")
+
+KillingCheats:CreateButton("Portal", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(18661.6172, 3002.72485, -298.155304, 0.999925911, -0, -0.0121711809, 0, 1, -0, 0.0121711809, 0, 0.999925911)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("miscs《for elude maze》")
+
+KillingCheats:CreateButton("Moai island", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(221.628937, 0.760464668, 6.39289093, 0.895422816, 0, 0.445216835, 0, 1, 0, -0.445216835, 0, 0.895422816)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+
+KillingCheats:CreateButton("slappe island", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(-430.110138, 73.1413345, -23.5344944, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+
+KillingCheats:CreateButton("server hop", function()
+local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+
+module:Teleport(game.PlaceId)
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Credits")
+
+KillingCheats:CreateButton("《in youtube》credits to", function()
+print("THEDARKNESSKEEPSGROWING")
+end)
+
+KillingCheats:CreateButton("THEDARKNESSKEEPSGROWING", function()
+print("SUB TO ME")
+end)
